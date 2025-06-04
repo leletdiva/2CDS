@@ -1,16 +1,24 @@
-*{
+element.style {
+}
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    font-family: "Poppins", sans-serif;
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
-
-header{
-    background-color: #424e61;
-    color: white;
-    width: 100%
-    padding:20px
+.estudante {
+    background-color: #2df788;
+    padding: 24px 0;
+    text-align: center;
+}
+body {
+    font-family: "Poppins", sans-serif;
 }
